@@ -28,3 +28,14 @@ ul  {
 ol  {
   line-height: 40px
 }
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: 7px solid #ddd;
+  border-radius: 20px;
+  width: 550px;
+  border-color: purple;
+  border-style: double;
+}

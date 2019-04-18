@@ -1,33 +1,48 @@
 h1  {
   color: blue;
   text-align: center;
+  text-indent: 3em;
 }
+
 h2  {
   color: green;
   font-style: italic;
+  font-size: 21px;
+  font-family: monospace;
   text-align: center;
 }
+
 p  {
   font-family: sans-serif;
   color: orangered;
   text-align:left;
+  text-indent: 12em;
 }
-p1  {
+
+h4  {
   font-style: oblique;
   color: darkgreen;
   text-align: left;
+  text-indent: 12em;
   text-decoration: underline;
-}
-p2  {
+  }
+
+ol  {
   color: darkblue;
   text-align: left;
+  text-indent: 15px;
+  line-height: 40px;
+  padding-left: 14em;
   }
+
 ul  {
-  line-height: 40px
+  color: darkblue;
+  text-align: left;
+  text-indent: 15px;
+  line-height: 40px;
+  padding-left: 14em;
 }
-ol  {
-  line-height: 40px
-}
+
 img {
   display: block;
   margin-left: auto;
@@ -38,4 +53,10 @@ img {
   width: 550px;
   border-color: purple;
   border-style: double;
+}
+
+body  {
+  background-color: lightblue;
+  font-style: normal;
+  font-size: 19px;
 }
